@@ -1,0 +1,17 @@
+﻿<Window x:Class="StatTrackScript.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="StatTrack Script" Height="100" Width="200">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Content="Start" Click="StartButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button Content="Stop" Click="StopButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button Content="Move" Click="MoveButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="2"/>
+    </Grid>
+</Window>
